@@ -23,8 +23,8 @@ options:
   tolerance: 2500
   interval: 30
 schema:
-  thresold_1: int
-  thresold_2: int
-  thresold_3: int
+  threshold_1: int
+  threshold_2: int
+  threshold_3: int
   tolerance: int
   interval: int
