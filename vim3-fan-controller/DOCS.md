@@ -2,19 +2,7 @@
 
 ## Configuration
 
-**⚠️ : all temperatures are in Celsius\*1000, so 50°C is 50000.** _(Fahrenheit user, good luck)_
-
-Add-on configuration:
-
-```json
-{
-  "threshold_1": 40000,
-  "threshold_2": 60000,
-  "threshold_3": 80000,
-  "tolerance": 2500,
-  "interval": 30
-}
-```
+**⚠️ all temperatures are in Celsius\*1000, so 50°C is 50000.** _(Fahrenheit user, good luck)_
 
 ### Option: `threshold_1`, `threshold_2`, `threshold_3`
 
