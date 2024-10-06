@@ -16,3 +16,15 @@ privileged:
 devices:
   - /dev/i2c-0
 ingress: true
+options:
+  threshold_1: 40000
+  threshold_2: 60000
+  threshold_3: 80000
+  tolerance: 2500
+  interval: 30
+schema:
+  thresold_1: int
+  thresold_2: int
+  thresold_3: int
+  tolerance: int
+  interval: int

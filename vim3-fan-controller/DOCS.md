@@ -12,7 +12,7 @@ Add-on configuration:
   "threshold_2": 60000,
   "threshold_3": 80000,
   "tolerance": 2500,
-  "interval": 30000
+  "interval": 30
 }
 ```
 
@@ -28,4 +28,4 @@ Example : if the CPU temperature is 50000 and the `tolerance` is 2500, the fan w
 
 ### Option: `interval`
 
-The `interval` option is used to set the interval between two CPU temperature checks. (in milliseconds)
+The `interval` option is used to set the interval between two CPU temperature checks. (in seconds)
