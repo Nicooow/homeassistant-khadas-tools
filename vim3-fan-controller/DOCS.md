@@ -2,7 +2,7 @@
 
 ## Configuration
 
-**⚠️ : all temperatures are in Celsius\*1000, so 50°C is 50000.** _(Farhenheit user, good luck)_
+**⚠️ : all temperatures are in Celsius\*1000, so 50°C is 50000.** _(Fahrenheit user, good luck)_
 
 Add-on configuration:
 
