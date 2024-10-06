@@ -1,0 +1,16 @@
+configuration:
+  threshold_1:
+    name: "Seuil 1"
+    description: "La température du CPU à laquelle le ventilateur sera réglé à la vitesse la plus basse (en Celsius*1000, par exemple 40°C = 40000)"
+  threshold_2:
+    name: "Seuil 2"
+    description: "La température du CPU à laquelle le ventilateur sera réglé à la vitesse moyenne (en Celsius*1000, par exemple 60°C = 60000)"
+  threshold_3:
+    name: "Seuil 3"
+    description: "La température du CPU à laquelle le ventilateur sera réglé à la vitesse la plus élevée (en Celsius*1000, par exemple 80°C = 80000)"
+  tolerance:
+    name: "Tolérance"
+    description: "Tolérance +- pour éviter que le ventilateur ne s'allume et ne s'éteigne trop souvent (en Celsius*1000)"
+  interval:
+    name: "Intervalle"
+    description: "Intervalle entre deux vérifications de la température du CPU (en secondes)"

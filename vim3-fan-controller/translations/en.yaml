@@ -1,0 +1,16 @@
+configuration:
+  threshold_1:
+    name: "Threshold 1"
+    description: "The CPU temperature at which the fan will be set to the lowest speed (in Celsius*1000, e.g. 40°C is 40000)"
+  threshold_2:
+    name: "Threshold 2"
+    description: "The CPU temperature at which the fan will be set to the medium speed (in Celsius*1000, e.g. 60°C is 60000)"
+  threshold_3:
+    name: "Threshold 3"
+    description: "The CPU temperature at which the fan will be set to the highest speed (in Celsius*1000, e.g. 80°C is 80000)"
+  tolerance:
+    name: "Tolerance"
+    description: "Tolerance +- to avoid the fan to turn on and off too often (in Celsius*1000)"
+  interval:
+    name: "Interval"
+    description: "Interval between two CPU temperature checks (in seconds)"
