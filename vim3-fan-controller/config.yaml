@@ -9,7 +9,7 @@ arch:
   - armhf
   - armv7
   - i386
-apparmor: true
+# apparmor: true # already default to true
 startup: services
 devices:
   - /dev/i2c-0
