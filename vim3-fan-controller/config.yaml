@@ -1,6 +1,6 @@
 name: "Khadas VIM3 Fan Controller"
 description: "Control the fan of the Khadas VIM3"
-version: "1.0.3"
+version: "1.0.4"
 slug: "khadas-vim3-fan"
 init: false
 arch:
@@ -9,10 +9,8 @@ arch:
   - armhf
   - armv7
   - i386
-log_level: info
+# apparmor: true # already default to true
 startup: services
-privileged:
-  - SYS_ADMIN
 devices:
   - /dev/i2c-0
 ingress: true
