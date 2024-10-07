@@ -1,6 +1,6 @@
 name: "Khadas VIM3 Fan Controller"
 description: "Control the fan of the Khadas VIM3"
-version: "1.0.3"
+version: "1.0.3-dev1"
 slug: "khadas-vim3-fan"
 init: false
 arch:
@@ -11,7 +11,7 @@ arch:
   - i386
 startup: services
 privileged:
-  - SYS_ADMIN
+  - SYS_RESOURCE
 devices:
   - /dev/i2c-0
 ingress: true
