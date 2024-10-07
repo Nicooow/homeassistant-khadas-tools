@@ -9,7 +9,6 @@ arch:
   - armhf
   - armv7
   - i386
-log_level: info
 startup: services
 privileged:
   - SYS_ADMIN
