@@ -10,8 +10,6 @@ arch:
   - armv7
   - i386
 startup: services
-privileged:
-  - SYS_RESOURCE
 devices:
   - /dev/i2c-0
 ingress: true
