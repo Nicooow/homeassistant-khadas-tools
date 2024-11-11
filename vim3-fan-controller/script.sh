@@ -14,7 +14,7 @@ setpoint_medium=$(bashio::config 'threshold_2')
 setpoint_high=$(bashio::config 'threshold_3')
 interval=$(bashio::config 'interval')
 tolerance=$(bashio::config 'tolerance')
-last_fan_speed=-1
+last_fan_speed=0
 
 # Log the configuration
 bashio::log.info "===================== Configuration ====================="
@@ -86,7 +86,7 @@ while true; do
       fan_speed=3
     fi
   else
-    bashio::log.warn "Invalid last_fan_speed: $last_fan_speed"
+    bashio::log.warning "Invalid last_fan_speed: $last_fan_speed"
     fan_speed=0
   fi
 
