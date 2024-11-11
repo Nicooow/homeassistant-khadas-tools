@@ -1,6 +1,6 @@
 name: "Khadas VIM3 Fan Controller"
 description: "Control the fan of the Khadas VIM3"
-version: "1.0.4"
+version: "1.1.0a"
 slug: "khadas-vim3-fan"
 init: false
 arch:
