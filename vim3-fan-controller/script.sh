@@ -15,6 +15,7 @@ setpoint_high=$(bashio::config 'threshold_3')
 interval=$(bashio::config 'interval')
 tolerance=$(bashio::config 'tolerance')
 last_fan_speed=0
+$fan_control_command 0
 
 # Log the configuration
 bashio::log.info "===================== Configuration ====================="
