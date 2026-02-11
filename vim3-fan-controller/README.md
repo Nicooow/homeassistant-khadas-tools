@@ -14,6 +14,6 @@ see [DOCS.md](./DOCS.md)
 
 This add-on is a simple bash script which use i2c-tools to communicate with the fan controller through the MCU i2c bus.
 
-You can find the original documentation of the MCU i2c registers [here](https://dl.khadas.com/products/vim3/mcu/vim3_mcu_reg_en.pdf).
+You can find the original documentation of the MCU i2c registers [here](https://dl.khadas.com/products/vim3/tools/mcu/vim3-mcu-reg-en.pdf).
 
 You just have to write the fan speed to the register `0x88` of the i2c device `0x18` to change the fan speed.
