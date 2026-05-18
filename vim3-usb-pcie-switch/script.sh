@@ -14,15 +14,15 @@ else
   exit 1
 fi
 
-current=$(i2cget -f -y 0 0x33 0x01 2>&1) && \
-  bashio::log.info "Register USB_PCIE_SWITCH (0x33/0x01) before change: $current" || \
-  bashio::log.warning "Register USB_PCIE_SWITCH (0x33/0x01) before change: read not supported (${current})"
+current=$(i2cget -f -y 0 0x18 0x33 2>&1) && \
+  bashio::log.info "Register USB_PCIE_SWITCH (0x18/0x33) before change: $current" || \
+  bashio::log.warning "Register USB_PCIE_SWITCH (0x18/0x33) before change: read not supported (${current})"
 
-i2cset -f -y 0 0x33 0x01 "$mode"
+i2cset -f -y 0 0x18 0x33 "$mode"
 
-after=$(i2cget -f -y 0 0x33 0x01 2>&1) && \
-  bashio::log.info "Register USB_PCIE_SWITCH (0x33/0x01) after change: $after" || \
-  bashio::log.warning "Register USB_PCIE_SWITCH (0x33/0x01) after change: read not supported (${after})"
+after=$(i2cget -f -y 0 0x18 0x33 2>&1) && \
+  bashio::log.info "Register USB_PCIE_SWITCH (0x18/0x33) after change: $after" || \
+  bashio::log.warning "Register USB_PCIE_SWITCH (0x18/0x33) after change: read not supported (${after})"
 
 bashio::log.info "Command executed successfully. You can now uninstall this add-on if needed."
 exit 0
