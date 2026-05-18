@@ -1,0 +1,4 @@
+configuration:
+  mode:
+    name: "Mode"
+    description: "0 = USB 3.0 enabled, PCIe disabled ; 1 = PCIe enabled, USB 3.0 disabled"

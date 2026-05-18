@@ -1,0 +1,18 @@
+name: "Khadas VIM3 USB/PCIe Switch"
+description: "Switch between USB 3.0 and PCIe on the Khadas VIM3"
+version: "1.0.0"
+slug: "khadas-vim3-usb-pcie-switch"
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+startup: once
+devices:
+  - /dev/i2c-0
+options:
+  mode: 0
+schema:
+  mode: "list(0|1)"
