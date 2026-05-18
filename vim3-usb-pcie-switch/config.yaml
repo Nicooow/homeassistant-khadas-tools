@@ -1,6 +1,6 @@
 name: "Khadas VIM3 USB/PCIe Switch"
 description: "Switch between USB 3.0 and PCIe on the Khadas VIM3"
-version: "1.0.0"
+version: "1.0.1"
 slug: "khadas-vim3-usb-pcie-switch"
 init: false
 arch:
